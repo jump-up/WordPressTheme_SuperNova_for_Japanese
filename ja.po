@@ -1,0 +1,1285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Supernova v1.4.7\n"
+"POT-Creation-Date: 2013-11-09 14:52+0900\n"
+"PO-Revision-Date: 2013-11-09 20:38+0900\n"
+"Last-Translator: jump-up <takuji.kubo@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "We are sorry looks like we dont have the page you are looking for"
+msgstr "お探しのページは見つかりませんでした。"
+
+#: archive.php:21
+msgid "Category"
+msgstr "カテゴリーアーカイブ"
+
+#: archive.php:27 lib/core/supernova.php:196
+msgid "Author Archive"
+msgstr "作成者アーカイブ"
+
+#: archive.php:30 lib/core/supernova.php:197
+msgid "Blog Archives"
+msgstr "ブログアーカイブ"
+
+#: archive.php:33 sidebar-page.php:20 sidebar.php:20
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: comments.php:19
+msgid "says"
+msgstr "の発言"
+
+#: comments.php:22
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: comments.php:26
+msgid " at "
+msgstr " at "
+
+#: comments.php:45
+msgid "Reply"
+msgstr "返信"
+
+#: comments.php:59
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"この投稿はパスワードで保護されています。コメントを見るにはパスワードを入力し"
+"てください。"
+
+#: comments.php:104
+msgid "You must be "
+msgstr "必須（draft）"
+
+#: comments.php:104
+msgid "logged in"
+msgstr "ログイン中"
+
+#: comments.php:104
+msgid "to post a comment."
+msgstr "コメント欄（draft）"
+
+#: comments.php:111
+msgid "Logged in as"
+msgstr "ログイン中："
+
+#: comments.php:111
+msgid "Log out &raquo;"
+msgstr "ログアウト &raquo;"
+
+#: comments.php:116
+msgid "Name"
+msgstr "お名前"
+
+#: comments.php:119
+msgid "Email"
+msgstr "E-mail"
+
+#: comments.php:121
+msgid "Website"
+msgstr "サイトURL"
+
+#: comments.php:132
+msgid "Submit Comment"
+msgstr "コメントを送信"
+
+#: footer.php:26
+msgid "Powered by"
+msgstr "Powered by"
+
+# if i input translated text, sidebar reset default.
+# so it is draft.
+# [Sidebar Home] and [Sidebar Page] only
+#: functions.php:21
+#, fuzzy
+msgid "Sidebar Home"
+msgstr "トップページ用サイドバー(please see comment)"
+
+#: functions.php:23
+msgid "I will only show on Home page"
+msgstr "トップページのみに表示します。"
+
+# if i input translated text, sidebar reset default.
+# so it is draft.
+# [Sidebar Home] and [Sidebar Page] only
+#: functions.php:30
+#, fuzzy
+msgid "Sidebar Page"
+msgstr "トップページ用サイドバー(please see comment)"
+
+#: functions.php:32
+msgid "I will show on all pages except home"
+msgstr "トップページ以外の全てのページに表示します。"
+
+#: functions.php:39
+msgid "Header Widgets"
+msgstr "ヘッダーウィジェット"
+
+#: functions.php:41
+msgid "I will show next to logo( I CAN HANDLE ONLY ONE WIDGET)"
+msgstr "ヘッダーロゴの横に表示（ウィジェットは１つのみ利用可能）"
+
+#: functions.php:48
+msgid "Footer Widgets"
+msgstr "フッターウィジェット"
+
+#: functions.php:50
+msgid "I will show at the footer"
+msgstr "フッターに表示"
+
+#: functions.php:111
+msgid "Header Navigation"
+msgstr "ヘッダーナビゲーション"
+
+#: functions.php:112
+msgid "Header Categories"
+msgstr "カテゴリーナビゲーション"
+
+#: functions.php:113 lib/admin/arrays.php:35
+msgid "Main Navigation"
+msgstr "メインナビゲーション"
+
+#: functions.php:114
+msgid "Footer Navigation"
+msgstr "フッターナビゲーション"
+
+#: functions.php:128
+msgid "... Read More"
+msgstr " (さらに…)"
+
+#: loop-single.php:17
+msgid "Edit this entry"
+msgstr "編集する"
+
+#: loop.php:21
+msgid "Sorry Nothing Found"
+msgstr "何も見つかりませんでした"
+
+#: loop.php:23
+msgid "Sorry, we did not find any match for the searched term"
+msgstr "条件に合うものは見つかりませんでした"
+
+#: search.php:17
+msgid "Search Results for "
+msgstr "検索結果:"
+
+#: searchform.php:13
+msgid "Search..."
+msgstr "検索する"
+
+#: sidebar-page.php:15 sidebar.php:15
+msgid "Pages"
+msgstr "固定ページ一覧"
+
+#: sidebar-page.php:27 sidebar.php:27 lib/functions/custom-functions.php:192
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: includes/after-post.php:19
+msgid "About"
+msgstr "About"
+
+#: includes/after-post.php:30
+msgid "<< PREVIOUS"
+msgstr "<< 前の記事へ"
+
+#: includes/after-post.php:31
+msgid "NEXT >>"
+msgstr "次の記事へ >>"
+
+#: includes/before-post.php:18
+msgid "Decrease font-size"
+msgstr "文字を小さく"
+
+#: includes/before-post.php:18
+msgid "Increase font size"
+msgstr "文字を大きく"
+
+#: includes/meta.php:17 lib/functions/supernova-hooks.php:108
+msgid "By"
+msgstr "By"
+
+#: includes/meta.php:22 lib/functions/supernova-hooks.php:116
+msgid "| LEAVE A COMMENT"
+msgstr "| コメントをどうぞ"
+
+#: includes/meta.php:22 lib/functions/supernova-hooks.php:116
+msgid "| SHOW COMMENT(1)"
+msgstr "| (1)件のコメント"
+
+#: includes/meta.php:22 lib/functions/supernova-hooks.php:116
+msgid "| SHOW COMMENTS (%)"
+msgstr "| (%)件のコメント"
+
+#: includes/inc/nav.php:14
+msgid "&laquo; Older Entries"
+msgstr "&laquo; 以前の投稿"
+
+#: includes/inc/nav.php:15
+msgid "Newer Entries &raquo;"
+msgstr "新しい投稿 &raquo;"
+
+#: lib/admin/admin-int.php:16 lib/admin/arrays.php:15 lib/admin/arrays.php:23
+#: lib/admin/arrays.php:31 lib/admin/arrays.php:39
+msgid "General"
+msgstr "一般"
+
+#: lib/admin/admin-int.php:17 lib/admin/arrays.php:48 lib/admin/arrays.php:59
+#: lib/admin/arrays.php:70 lib/admin/arrays.php:81
+msgid "Layout"
+msgstr "レイアウト"
+
+#: lib/admin/admin-int.php:18 lib/admin/arrays.php:90 lib/admin/arrays.php:98
+#: lib/admin/arrays.php:106 lib/admin/arrays.php:117 lib/admin/arrays.php:128
+#: lib/admin/arrays.php:139 lib/admin/arrays.php:150 lib/admin/arrays.php:161
+#: lib/admin/arrays.php:169 lib/admin/arrays.php:177 lib/admin/arrays.php:185
+#: lib/admin/arrays.php:193 lib/admin/arrays.php:201 lib/admin/arrays.php:209
+#: lib/admin/arrays.php:217
+msgid "Styling"
+msgstr "スタイル"
+
+#: lib/admin/admin-int.php:19
+msgid "Slider"
+msgstr "スライダー"
+
+#: lib/admin/admin-int.php:20
+msgid "Social"
+msgstr "ソーシャル"
+
+#: lib/admin/admin-int.php:21 lib/admin/arrays.php:453
+#: lib/admin/arrays.php:463 lib/admin/arrays.php:473 lib/admin/arrays.php:483
+#: lib/admin/arrays.php:493 lib/admin/arrays.php:501 lib/admin/arrays.php:509
+#: lib/admin/arrays.php:517 lib/admin/arrays.php:525 lib/admin/arrays.php:533
+#: lib/admin/arrays.php:541 lib/admin/arrays.php:549 lib/admin/arrays.php:557
+#: lib/admin/arrays.php:565 lib/admin/arrays.php:573 lib/admin/arrays.php:581
+#: lib/admin/arrays.php:589 lib/admin/arrays.php:597 lib/admin/arrays.php:605
+#: lib/admin/arrays.php:613 lib/admin/arrays.php:621 lib/admin/arrays.php:629
+#: lib/admin/arrays.php:637 lib/admin/arrays.php:645 lib/admin/arrays.php:653
+#: lib/admin/arrays.php:661 lib/admin/arrays.php:669 lib/admin/arrays.php:677
+msgid "Advanced"
+msgstr "高度な設定"
+
+#: lib/admin/admin-int.php:22
+msgid "Manage Ads"
+msgstr "広告枠"
+
+#: lib/admin/admin-int.php:23
+msgid "Support"
+msgstr "サポート"
+
+#: lib/admin/admin-int.php:55
+msgid "Let your site load fast"
+msgstr "あなたのサイトの表示速度を早く（draft）"
+
+#: lib/admin/admin-int.php:58
+msgid ""
+"Please do not upload heavy images which increase your page load time, and "
+"use the exact size so the images do not strech nor they affect your page "
+"load time."
+msgstr ""
+"あなたのサイトの表示速度が遅くなるようなあまり重たい画像はアップロードしない"
+"でください。"
+
+#: lib/admin/admin-int.php:58
+msgid "Click here "
+msgstr "クリック"
+
+#: lib/admin/admin-int.php:58
+msgid ""
+"to know the correct size of your slider images, if you have changed the "
+"content or sidebar width."
+msgstr ""
+"コンテンツやサイドバーの幅を変えたら、適正なスライダーの画像サイズが確認"
+"（draft）"
+
+#: lib/admin/admin-int.php:59
+msgid "Default : 735 X 300px"
+msgstr "デフォルトサイズ : 735 X 300px"
+
+#: lib/admin/admin-int.php:60
+msgid "Size : Around 50kb."
+msgstr "画像サイズ : 約 50kb."
+
+#: lib/admin/admin-int.php:61
+msgid "Its recommended to use online tools like"
+msgstr "以下のオンラインツールを利用することをお勧めします。（draft）"
+
+#: lib/admin/admin-int.php:61
+msgid " to compress jpeg and "
+msgstr "jpegを圧縮しそして(draft)"
+
+#: lib/admin/admin-int.php:61
+msgid " for compressing png images, and make your site load faster."
+msgstr "png画像を圧縮しているので、サイトの読み込み速度がより早くなります。"
+
+#: lib/admin/admin-setup.php:10 lib/admin/admin-setup.php:38
+msgid "Theme Options"
+msgstr "テーマオプション"
+
+#: lib/admin/admin-setup.php:10
+msgid "Supernova Options"
+msgstr "Supernova オプション"
+
+#: lib/admin/admin-setup.php:44
+msgid "Save Settings"
+msgstr "保存する"
+
+#: lib/admin/admin-setup.php:61
+msgid "Reset All"
+msgstr "リセット"
+
+#: lib/admin/arrays.php:12
+msgid "Upload Favicon"
+msgstr "ファビコンのアップロード"
+
+#: lib/admin/arrays.php:14
+msgid ""
+"Favicon is the tiny icon that you see on your browser's tab. Either create a "
+"16x16px image or create it online and upload it here ."
+msgstr ""
+"ファビコンとはブラウザータブに表示される小さなアイコンです。16x16pxの画像やオ"
+"ンラインから作成してアップロードします。"
+
+#: lib/admin/arrays.php:19
+msgid "Top Most Navigation"
+msgstr "ヘッダーナビゲーション"
+
+#: lib/admin/arrays.php:21
+msgid "Will remove the top most navigation"
+msgstr "ヘッダーナビゲーションを非表示にする"
+
+#: lib/admin/arrays.php:27
+msgid "Category Navigation"
+msgstr "カテゴリーナビゲーション"
+
+#: lib/admin/arrays.php:29
+msgid "Will remove categories from header"
+msgstr "カテゴリーナビゲーションを非表示にする"
+
+#: lib/admin/arrays.php:37
+msgid "Will remove the main navigation which is below header"
+msgstr "メインナビゲーションを非表示にする"
+
+#: lib/admin/arrays.php:44
+msgid "Layout Width"
+msgstr "レイアウト幅"
+
+#: lib/admin/arrays.php:46
+msgid "This is the total width of your website's layout in pixels"
+msgstr "ホームページ全体の幅をピクセル（px）で指定します。"
+
+#: lib/admin/arrays.php:55
+msgid "Content Width"
+msgstr "コンテンツ部分の幅"
+
+#: lib/admin/arrays.php:57
+msgid "Decide the width of the content area (in percentage)."
+msgstr "コンテンツ部分の幅をパーセント（％）で指定します。"
+
+#: lib/admin/arrays.php:66
+msgid "Sidebar Width"
+msgstr "サイドバーの幅"
+
+#: lib/admin/arrays.php:68
+msgid "THE TOTAL OF CONTENT AND SIDEBAR WIDTH SHOULD BE 100%."
+msgstr "コンテンツ部分とサイドバーの幅の合計は100％になるように指定します。"
+
+#: lib/admin/arrays.php:77
+msgid "Sidebar Position"
+msgstr "サイドバーの位置"
+
+#: lib/admin/arrays.php:86
+msgid "Color Scheme"
+msgstr "カラースキーム"
+
+#: lib/admin/arrays.php:94
+msgid "Font Family"
+msgstr "フォントファミリー"
+
+#: lib/admin/arrays.php:96
+msgid "Will affect the font family of the post content & sidebar"
+msgstr "投稿記事本文とサイドバーに適用します"
+
+#: lib/admin/arrays.php:102
+msgid "Post Content"
+msgstr "投稿記事本文"
+
+#: lib/admin/arrays.php:113 lib/admin/arrays.php:189
+msgid "Post Heading"
+msgstr "投稿記事タイトル"
+
+#: lib/admin/arrays.php:124
+msgid "Site Heading"
+msgstr "サイトタイトル"
+
+#: lib/admin/arrays.php:135
+msgid "Site Discription"
+msgstr "サイトの説明文"
+
+#: lib/admin/arrays.php:146 lib/admin/arrays.php:197
+msgid "Sidebar Heading"
+msgstr "サイドバータイトル"
+
+#: lib/admin/arrays.php:157 lib/admin/arrays.php:205
+msgid "Footer Background"
+msgstr "フッターの背景"
+
+#: lib/admin/arrays.php:165
+msgid "Footer Text Color"
+msgstr "フッターの文字色"
+
+#: lib/admin/arrays.php:173
+msgid "Footer Heading Color"
+msgstr "フッターのタイトルカラー"
+
+#: lib/admin/arrays.php:181
+msgid "Post Paragraph"
+msgstr "投稿記事の段落内（darft）"
+
+#: lib/admin/arrays.php:207
+msgid "You can use footer background image or color from above"
+msgstr "画像や上記の色をフッターの背景として利用できます"
+
+#: lib/admin/arrays.php:213
+msgid "Write Custom CSS"
+msgstr "カスタムCSS"
+
+#: lib/admin/arrays.php:213
+msgid "(No style tag)"
+msgstr "(No style tag)"
+
+#: lib/admin/arrays.php:215
+msgid ""
+"CSS written here will be applied everywhere on your theme, and loads after "
+"style.css, so it will override any existing css property. Also this css will "
+"not be lost even after you update supernova theme"
+msgstr ""
+"ここで設定したCSSは、このテーマに適用され、今あるCSSを上書きします。また、"
+"テーマがアップデートされても内容は失われません。"
+
+#: lib/admin/arrays.php:222
+msgid "Disable Slider"
+msgstr "スライダーを非表示にする"
+
+#: lib/admin/arrays.php:224
+msgid "Will remove slider from the home page(saves 18Kb)"
+msgstr "トップページにスライダーを表示しません(saves 18Kb)"
+
+#: lib/admin/arrays.php:226 lib/admin/arrays.php:236 lib/admin/arrays.php:246
+#: lib/admin/arrays.php:256 lib/admin/arrays.php:266 lib/admin/arrays.php:276
+#: lib/admin/arrays.php:286 lib/admin/arrays.php:296 lib/admin/arrays.php:306
+#: lib/admin/arrays.php:316
+msgid "Slider Posts"
+msgstr "スライダーに挿入する投稿記事"
+
+#: lib/admin/arrays.php:230
+msgid "Slide Effect"
+msgstr "スライダーの効果"
+
+#: lib/admin/arrays.php:232
+msgid "Will change slider effect"
+msgstr "スライダーの効果を変更します"
+
+#: lib/admin/arrays.php:240
+msgid "Slide One"
+msgstr "スライド１"
+
+#: lib/admin/arrays.php:242 lib/admin/arrays.php:252 lib/admin/arrays.php:262
+#: lib/admin/arrays.php:272 lib/admin/arrays.php:282 lib/admin/arrays.php:292
+#: lib/admin/arrays.php:302 lib/admin/arrays.php:312
+msgid "Choose Post + Image OR just post which already has featured image.Click"
+msgstr ""
+"投稿記事と画像もしくは既にサムネイル画像が設定された投稿記事を選び、クリック"
+
+#: lib/admin/arrays.php:242 lib/admin/arrays.php:252 lib/admin/arrays.php:262
+#: lib/admin/arrays.php:272
+msgid " to know the SIZE of the slider Image"
+msgstr "スライダー画像のサイズを確認"
+
+#: lib/admin/arrays.php:250
+msgid "Slide Two"
+msgstr "スライド２"
+
+#: lib/admin/arrays.php:260
+msgid "Slide Three"
+msgstr "スライド３"
+
+#: lib/admin/arrays.php:270
+msgid "Slide Four"
+msgstr "スライド４"
+
+#: lib/admin/arrays.php:280
+msgid "Slide Five"
+msgstr "スライド５"
+
+#: lib/admin/arrays.php:282 lib/admin/arrays.php:292 lib/admin/arrays.php:302
+#: lib/admin/arrays.php:312
+msgid "to know the SIZE of the slider Image"
+msgstr "スライダー画像のサイズを確認"
+
+#: lib/admin/arrays.php:290
+msgid "Slide Six"
+msgstr "スライド６"
+
+#: lib/admin/arrays.php:300
+msgid "Slide Seven"
+msgstr "スライド７"
+
+#: lib/admin/arrays.php:310
+msgid "Slide Eight"
+msgstr "スライド８"
+
+#: lib/admin/arrays.php:323 lib/admin/arrays.php:333 lib/admin/arrays.php:343
+#: lib/admin/arrays.php:353 lib/admin/arrays.php:363 lib/admin/arrays.php:373
+msgid "Add Link to Show Icon"
+msgstr "アイコンにリンクを設定する"
+
+#: lib/admin/arrays.php:327 lib/admin/arrays.php:337 lib/admin/arrays.php:347
+#: lib/admin/arrays.php:357 lib/admin/arrays.php:367 lib/admin/arrays.php:377
+#: lib/admin/arrays.php:385
+msgid "Social Profiles"
+msgstr "ソーシャルプロフィールの設定"
+
+#: lib/admin/arrays.php:381
+msgid "Icon Color"
+msgstr "アイコンカラー"
+
+#: lib/admin/arrays.php:383
+msgid ""
+"Will change Icon colors, you would need it if you use a light background "
+"color for footer"
+msgstr "明るいフッター背景にあわせてアイコンカラーを変更します"
+
+#: lib/admin/arrays.php:390
+msgid "Header Ad"
+msgstr "ヘッダー広告枠"
+
+#: lib/admin/arrays.php:392
+msgid "Drop your ad code here and the ad will show in the header next to logo"
+msgstr "広告のコードを挿入するとヘッダーロゴの横に表示されます"
+
+#: lib/admin/arrays.php:394 lib/admin/arrays.php:402 lib/admin/arrays.php:410
+#: lib/admin/arrays.php:418 lib/admin/arrays.php:426 lib/admin/arrays.php:434
+#: lib/admin/arrays.php:442
+msgid "Ad Spots"
+msgstr "スポット広告枠"
+
+#: lib/admin/arrays.php:398
+msgid "Below Navigation"
+msgstr "メインナビゲーションの直下枠"
+
+#: lib/admin/arrays.php:400
+msgid "Ad will show below navigation, above slider"
+msgstr "メインナビゲーションの下、スライダーの上に表示されます"
+
+#: lib/admin/arrays.php:406
+msgid "Above Posts"
+msgstr "トップページの投稿記事の上枠"
+
+#: lib/admin/arrays.php:408
+msgid "Ad will show right above the posts on home page, below slider"
+msgstr "スライダーの下、投稿記事の上に表示されます"
+
+#: lib/admin/arrays.php:414
+msgid "Below Posts"
+msgstr "トップページの投稿記事の下枠"
+
+#: lib/admin/arrays.php:416
+msgid "Ad will show below the posts"
+msgstr "投稿記事の下に表示されます"
+
+#: lib/admin/arrays.php:422
+msgid "Above Footer"
+msgstr "Above Footer"
+
+#: lib/admin/arrays.php:424
+msgid "Ad will show right above the footer where content ends"
+msgstr "フッターのすぐ上に表示されます"
+
+#: lib/admin/arrays.php:430
+msgid "Above Single Post"
+msgstr "各投稿記事の上枠"
+
+#: lib/admin/arrays.php:432
+msgid "Ad will show right above the single post"
+msgstr "各投稿記事のすぐ上に表示されます"
+
+#: lib/admin/arrays.php:438
+msgid "Below Single Post"
+msgstr "各投稿記事の下枠"
+
+#: lib/admin/arrays.php:440
+msgid "Ad will show below single post"
+msgstr "各投稿記事のすぐ下に表示されます"
+
+#: lib/admin/arrays.php:447
+msgid "Footer Text"
+msgstr "フッターテキスト"
+
+#: lib/admin/arrays.php:449
+msgid "Will replace the footer text"
+msgstr "フッターテキストを記入します"
+
+#: lib/admin/arrays.php:457
+msgid "Latest Blog Text"
+msgstr "Latest Blogタブの文字変更"
+
+#: lib/admin/arrays.php:459
+msgid "changes latest blog text on the home page"
+msgstr "Latest Blogタブの文字を変更します"
+
+#: lib/admin/arrays.php:467
+msgid "Popular Text"
+msgstr "Popular Postsタブの文字変更"
+
+#: lib/admin/arrays.php:469
+msgid "changes popular text on the home page"
+msgstr "Popular Postsタブの文字を変更します"
+
+#: lib/admin/arrays.php:477
+msgid "Recommended Text"
+msgstr "Recommended Postsタブの文字変更"
+
+#: lib/admin/arrays.php:479
+msgid "changes recommended text on the home page"
+msgstr "Recommended Postsタブの文字を変更します"
+
+#: lib/admin/arrays.php:487
+msgid "Loader Text"
+msgstr "Loader テキスト"
+
+#: lib/admin/arrays.php:489
+msgid "changes loader button text"
+msgstr "Ajax loader ボタンの文字を変更します"
+
+#: lib/admin/arrays.php:497
+msgid "Sidebar on Home Page"
+msgstr "トップページ用サイドバー"
+
+#: lib/admin/arrays.php:499
+msgid "Will make the home page full width and enlarge the slider"
+msgstr "トップページをフルサイズで表示し、スライダーを拡大します。（draft）"
+
+#: lib/admin/arrays.php:505
+msgid "Sticky Navigation"
+msgstr "Stickyナビゲーション"
+
+#: lib/admin/arrays.php:507
+msgid "Will remove stick effect(saves 3Kb)"
+msgstr "スクロールしても常に表示されるStickyエフェクトを停止します(saves 3Kb)"
+
+#: lib/admin/arrays.php:513
+msgid "Dropdown Effect"
+msgstr "ドロップダウンエフェクト"
+
+#: lib/admin/arrays.php:515
+msgid "Removes the navigation dropdown effect and arrows(saves 14Kb)"
+msgstr "ナビゲーションのドロップダウンエフェクトを停止します(saves 14Kb)"
+
+#: lib/admin/arrays.php:521
+msgid "Disable Date"
+msgstr "日付の非表示"
+
+#: lib/admin/arrays.php:523
+msgid "Will remove date from posts meta"
+msgstr "投稿記事のメタ情報の日付を非表示にします"
+
+#: lib/admin/arrays.php:529
+msgid "Disable Date from slider"
+msgstr "スライダーの日付の非表示"
+
+#: lib/admin/arrays.php:531
+msgid "Will remove date from slider"
+msgstr "スライダーの日付を非表示にします"
+
+#: lib/admin/arrays.php:537
+msgid "Disable Author"
+msgstr "作成者の非表示"
+
+#: lib/admin/arrays.php:539
+msgid "Will remove author from post meta"
+msgstr "投稿記事のメタ情報の作成者を非表示にします"
+
+#: lib/admin/arrays.php:545
+msgid "Disable All Meta"
+msgstr "メタ情報の非表示"
+
+#: lib/admin/arrays.php:547
+msgid "Will remove all meta from the post"
+msgstr "投稿記事のメタ情報を非表示にします"
+
+#: lib/admin/arrays.php:553
+msgid "Search In Top Navigation"
+msgstr "ヘッダーナビゲーションの検索窓"
+
+#: lib/admin/arrays.php:555
+msgid "Will remove search box from the top most navigation"
+msgstr "ヘッダーナビゲーションの検索窓を非表示にします"
+
+#: lib/admin/arrays.php:561
+msgid "Search In Main Navigation"
+msgstr "メインナビゲーションの検索窓"
+
+#: lib/admin/arrays.php:563
+msgid "Will remove search box from main navigation"
+msgstr "メインナビゲーションの検索窓を非表示にします"
+
+#: lib/admin/arrays.php:569
+msgid "Back to Top"
+msgstr "上部へ戻るボタン"
+
+#: lib/admin/arrays.php:571
+msgid "Will remove back to top from the bottom right"
+msgstr "上部へ戻るボタンを非表示にします"
+
+#: lib/admin/arrays.php:577
+msgid "Pagination"
+msgstr "ページネーション"
+
+#: lib/admin/arrays.php:579
+msgid ""
+"Will remove theme's default pagination so you can use some plugin you like"
+msgstr ""
+"ページネーションを非表示にします。このみのページネーションプラグインが利用で"
+"きます"
+
+#: lib/admin/arrays.php:585
+msgid "Breadcrumb"
+msgstr "パンくずリスト"
+
+#: lib/admin/arrays.php:587
+msgid ""
+"Will remove breadcrumb from your theme, if you use SEO by Yoast Plugin, the "
+"yoast breadcrumb replaces it by itself."
+msgstr "パンくずリストを非表示にします。"
+
+#: lib/admin/arrays.php:593
+msgid "Font Resizer"
+msgstr "フォントリサイザー"
+
+#: lib/admin/arrays.php:595
+msgid "Will remove font resizer from each single post"
+msgstr "フォントリサイザーを非表示にします"
+
+#: lib/admin/arrays.php:601
+msgid "Comments In Pages"
+msgstr "固定ページのコメント欄"
+
+#: lib/admin/arrays.php:603
+msgid "Will remove comments only from pages"
+msgstr "固定ページのコメント欄を非表示にします"
+
+#: lib/admin/arrays.php:609
+msgid "Comments In Posts"
+msgstr "投稿記事のコメント欄"
+
+#: lib/admin/arrays.php:611
+msgid "Will remove comments only from posts"
+msgstr "投稿記事のコメント欄を非表示にします"
+
+#: lib/admin/arrays.php:617
+msgid "Show Excerpt"
+msgstr "記事の抜粋表示"
+
+# it is old text.
+#: lib/admin/arrays.php:619
+msgid "Will show full content inplace of excerpt"
+msgstr "抜粋に変えて記事本文を表示します（old text）"
+
+#: lib/admin/arrays.php:625
+msgid "Remove Author Box"
+msgstr "作成者ボックスの非表示"
+
+#: lib/admin/arrays.php:627
+msgid "Will remove author info box from each single post"
+msgstr "各投稿記事の作成者ボックスを非表示にします"
+
+#: lib/admin/arrays.php:633
+msgid "Featured Image on post"
+msgstr "投稿記事にサムネイル画像を表示"
+
+#: lib/admin/arrays.php:635
+msgid ""
+"Will remove featured image from single posts however featured image will "
+"show as thumbnail in post listing (if you want to remove featured image only "
+"from some pages use CSS instead, use <small> .single .supernova_thumb"
+"{display:none} </small> for each page)"
+msgstr "各投稿記事のサムネイル画像を非表示にします（draft）"
+
+#: lib/admin/arrays.php:641
+msgid "Responsivness"
+msgstr "レスポンシブ"
+
+#: lib/admin/arrays.php:643
+msgid "You website would look the same in small screen"
+msgstr "小さな画面からでも同じようにあなたのサイトを見ることができます。"
+
+#: lib/admin/arrays.php:649
+msgid "Ajax Post Loader"
+msgstr "Ajax Post Loader"
+
+#: lib/admin/arrays.php:651
+msgid "Will remove ajax post loader from pagination"
+msgstr "Ajax Post Loaderを非表示にします"
+
+#: lib/admin/arrays.php:657 lib/core/supernova.php:289
+#: lib/metaboxes/metaboxes.php:66
+msgid "Popular Posts"
+msgstr "人気の記事タブ"
+
+#: lib/admin/arrays.php:659
+msgid "Will remove popular posts tab from home page"
+msgstr "トップページの人気の記事タブを非表示にします"
+
+#: lib/admin/arrays.php:665 lib/metaboxes/metaboxes.php:61
+msgid "Recommended Posts"
+msgstr "お勧めの記事にこの投稿を追加する"
+
+#: lib/admin/arrays.php:667
+msgid "Will remove recommended posts tab from home page"
+msgstr "トップページのお勧めの記事タブを非表示にします"
+
+#: lib/admin/arrays.php:673
+msgid "Popular Posts Depend on"
+msgstr "人気の記事の抽出方法"
+
+#: lib/admin/arrays.php:675
+msgid ""
+"ACTUAL COUNT: This is default. Popular posts are shown depending on the "
+"number of visits on each posts, most popular first(i.e. in descending "
+"order). NUMBER OF COMMENTS: The popular posts would not be calculated on the "
+"actual visits, instead the posts which has the most comments would get "
+"precedence. If you use some caching plugin, its possible that the theme is "
+"not able to capture the actual counts based on visits, so you can still show "
+"popular posts depending on the number of comments. LET ME SELECT: Once this "
+"option is selected you would have the freedom to choose the popular posts by "
+"yourself. As you select this, one more option would appear right below the "
+"recommended post in each post editor. This option can be also be usefull if "
+"you want to name it something else like editor's pick and show what you want "
+msgstr ""
+"PV数:デフォルトです。人気の記事は各投稿記事のPV数によってPV数の多い順に表示さ"
+"れています。コメント数:(draft)"
+
+#: lib/admin/arrays.php:732
+msgid "Latest Blogs"
+msgstr "最近の記事"
+
+#: lib/admin/page-setup.php:27 lib/admin/page-setup.php:207
+msgid "Upload"
+msgstr "アップロード"
+
+#: lib/admin/page-setup.php:28 lib/admin/page-setup.php:208
+#: lib/admin/page-setup.php:227
+msgid "Remove"
+msgstr "非表示"
+
+#: lib/admin/page-setup.php:86
+msgid "Actual Count"
+msgstr "PV数"
+
+#: lib/admin/page-setup.php:90
+msgid "Number of Comments"
+msgstr "コメント数"
+
+#: lib/admin/page-setup.php:94
+msgid "Let me select"
+msgstr "自分で選ぶ"
+
+#: lib/admin/page-setup.php:98
+msgid ""
+"Okay, now you can select the poplular posts like you select recommended "
+"posts meaning from every individual posts"
+msgstr ""
+"これで、お勧めの記事と同様、人気の記事も個別の投稿記事から選択できるようにな"
+"りました。"
+
+#: lib/admin/page-setup.php:178
+msgid "Theme's Default"
+msgstr "デフォルトテーマ"
+
+#: lib/admin/support.php:14
+msgid "Designed & Developed By:"
+msgstr "デザイン及び開発:"
+
+#: lib/admin/support.php:15
+msgid ""
+"If you have any suggestion, question or issues, no matter how small or big "
+"it is, feel free to ask on WordPress"
+msgstr ""
+"提案や質問その他どんな事でもかまいませんので何かありましたら気軽にワードプレ"
+"ス"
+
+#: lib/admin/support.php:15 lib/core/supernova.php:218
+msgid "support"
+msgstr "サポート"
+
+#: lib/admin/support.php:15
+msgid "forum, or "
+msgstr "フォーラムもしくは"
+
+#: lib/admin/support.php:15
+msgid "contact me directly"
+msgstr "私に直接連絡をください。"
+
+#: lib/admin/support.php:15
+msgid " I will try to reply as quickly as possible."
+msgstr "速やかに回答するようにします。"
+
+#: lib/admin/support.php:16 lib/core/supernova.php:219
+msgid "If you like this theme please rate it on WordPress"
+msgstr "もしこのテーマが気に入ったらワードプレスでの評価をお願いします。"
+
+#: lib/admin/support.php:16 lib/core/supernova.php:219
+msgid "theme reviews"
+msgstr "テーマレビュー"
+
+#: lib/admin/support.php:16 lib/core/supernova.php:219
+msgid "page"
+msgstr "ページ"
+
+#: lib/admin/support.php:17
+msgid "View Theme "
+msgstr "プレビュー:"
+
+#: lib/admin/support.php:17
+msgid "Demo"
+msgstr "デモ"
+
+#: lib/admin/support.php:23
+msgid "Getting Started:"
+msgstr "さあ始めよう"
+
+#: lib/admin/support.php:24
+msgid ""
+" All features of this theme have been kept on, so you dont have hard time "
+"understanding them and you can remove the ones you dont want, however there "
+"are couple of things you would want to know on the first use of this theme. "
+msgstr ""
+"現在、全ての機能がオンになっています。それぞれの機能についてはすぐに理解でき"
+"ると思います。必要のない機能はオフにすることができます。しかし、最初に確認し"
+"ておいたほうが良いことがいくつかります。"
+
+#: lib/admin/support.php:25
+msgid "Sidebar:"
+msgstr "サイドバー:"
+
+#: lib/admin/support.php:25
+msgid ""
+" Supernova has two sidebars, \"Sidebar Home\" would only show on the home "
+"page and \"Sidebar Page\" would show on all pages except home.\" "
+msgstr ""
+" Supernovaには2種類のサイドバーが用意されています。 \"トップページ用サイド"
+"バー\" はトップページのみに表示（適用）されます。そして \"その他のページ用サ"
+"イドバー\" は、トップページ以外の全てのページに表示（適用）されます。 "
+
+#: lib/admin/support.php:26
+msgid "Recommended Posts:"
+msgstr "お勧めの記事:"
+
+#: lib/admin/support.php:26
+msgid ""
+" Recommended posts can be chosen from where you create or edit posts, at the "
+"bottom right of the sidebar.\" "
+msgstr ""
+"お勧めの記事タブへ現在作成あるいは編集中の記事を追加したい場合は、「投稿の編"
+"集画面」の右側サイドバーに「お勧めの記事への追加」がありますので、「お勧めの"
+"記事にこの投稿を追加する」をチェックしてください。"
+
+#: lib/admin/support.php:27
+msgid "Author Info Box:"
+msgstr "作成者ボックス:"
+
+#: lib/admin/support.php:27
+msgid " Author info box information can be filled from user profile."
+msgstr "作成者ボックスはユーザープロフィールから情報を得ています。（draft）"
+
+#: lib/admin/support.php:28
+msgid "Navigation:"
+msgstr "ナビゲーション:"
+
+#: lib/admin/support.php:28
+msgid ""
+" Your theme supports four navigations, Header Navigation, Header Categories, "
+"Main Navigation and Footer Navigation, when you activate this theme, the "
+"menu items may not appear since they are not saved, so please go to "
+"Appearance>Menus and save each navigation menu"
+msgstr ""
+"このテーマで利用している４つのナビゲーション（メイン、ヘッダー、フッター、カ"
+"テゴリー）は、保存されません。再度、このテーマを利用する場合には、「管理画面"
+"＞外観＞メニュー」でそれぞれのメニューを保存してください。"
+
+#: lib/admin/support.php:29
+msgid "Plugins:"
+msgstr "プラグイン:"
+
+#: lib/admin/support.php:29
+msgid ""
+" Though the theme loads fast however its highly recommended to use 'WP TOTAL "
+"CACHE' plugin to decrease the page load time even more."
+msgstr ""
+"テーマの読み込みは高速ですが、'WP TOTAL CACHE'プラグインを利用して更にテーマ"
+"の読み込み速度を短縮することをお勧めします。"
+
+#: lib/admin/support.php:31
+msgid "What's new in this version(1.4.3)?"
+msgstr "更新箇所の説明:version(1.4.3)"
+
+#: lib/admin/support.php:32
+msgid "1) Added six more color schemes."
+msgstr "1)カラースキームに6色追加しました。"
+
+#: lib/admin/support.php:33
+msgid "2) Option to turn off responsiveness(in advanced tab)."
+msgstr "2)高度な設定タブにレスポンシブをオフにするオプションを加えました。"
+
+#: lib/admin/support.php:34
+msgid ""
+"3) Now you can center or right align your logo/site-title/logo-image from "
+"Apperance>Header> \"Header Logo Position.\" ."
+msgstr ""
+"3)「管理画面＞外観＞ヘッダー＞\"ヘッダーロゴ位置\"」で、ロゴ、サイトタイト"
+"ル、ロゴイメージの位置を左右中央の3箇所のいずれかを選択できるようにしました。"
+
+#: lib/admin/support.php:35
+msgid "4) Added one more tab 'popular' with recommended."
+msgstr "4)トップページに人気の記事タブに加え、お勧めの記事タブを追加しました。"
+
+#: lib/admin/support.php:36
+msgid "5) Added one more social icon Linkedin. "
+msgstr "5)ソーシャルプロフィールにLinkedinを追加しました。"
+
+#: lib/admin/support.php:37
+msgid ""
+"6) You can now know the slider image size even if you have slected a "
+"different content size."
+msgstr ""
+"6)違う画像を選択しただけで、スライダーの画像サイズが確認できるようになりまし"
+"た。"
+
+#: lib/admin/support.php:38
+msgid "8) Supernova is now HTML5 validated at w3.org ."
+msgstr "8) Supernova はw3.orgで検証されたHTML5に対応しています。"
+
+#: lib/admin/support.php:39
+msgid "9) Added one more widget in header."
+msgstr "9)ヘッダーウィジェットをひとつ追加しました。"
+
+#: lib/admin/support.php:40
+msgid "10) Fixed bugs."
+msgstr "10) バグを修正しました。"
+
+#: lib/admin/support.php:41
+msgid "11) Supernova now loads faster than before."
+msgstr "11) Supernovaはより表示速度が速くなりました。"
+
+#: lib/admin/support.php:42
+msgid "Update(1.4.7)?"
+msgstr "Update(1.4.7)?"
+
+#: lib/admin/support.php:43
+msgid ""
+"1) Fixed all issues from previous versions(Thanks to jump-up & Lorena for "
+"reporting issues )."
+msgstr ""
+"1)前バージョンの問題点を改善しました。（jump-upとLorenaの問題報告に感謝しま"
+"す。）"
+
+#: lib/admin/support.php:44
+msgid "2) Added option so choose popular posts dependencies.(in advanced tab)."
+msgstr "2)高度な設定タブに人気の記事の設定方法のオプションを加えました。"
+
+#: lib/admin/support.php:46
+msgid "Having Problem?:"
+msgstr "何か問題がありますか？:"
+
+#: lib/admin/support.php:47
+msgid ""
+"If something goes wrong or stops working all of a sudden, follow these steps "
+"before putting the blame on your theme"
+msgstr ""
+"挙動がおかしかったり、突然動かなくなった場合は、テーマを疑う前に次の手順を試"
+"してみてください。"
+
+#: lib/admin/support.php:48
+msgid ""
+"a) Switch to Wordpress default Twenty Twelve theme to see if its a theme "
+"related issue or a plugin which is causing problem, dont worry, the theme "
+"settings would not be lost"
+msgstr ""
+"a) テーマに関連する問題なのか、プラグインが引き起こしている問題なのか確認する"
+"ために、ワードプレスのデフォルトのテーマに変更してください。変更してもこの"
+"テーマに設定したオプションはリセットされません。"
+
+#: lib/admin/support.php:49
+msgid "b) Deactivate all plugins and see if that solves the problem."
+msgstr "b) プラグインを全て無効にして、問題が解決するか確認してください。"
+
+#: lib/admin/support.php:50
+msgid "c) Please reset settings of Supernova theme"
+msgstr "c) Supernovaのオプション設定を全てリセットしてください。"
+
+#: lib/admin/support.php:51
+msgid ""
+"If the problem could not be solved even after following these three steps "
+"check worpdress support forum for Supernova and see if there is already a "
+"solution to it or start a new discussion"
+msgstr ""
+"もしこれらの手順を実行したあとでも問題が解決しない場合は、WordPressサポート"
+"フォーラムでSupernovaに関して既に解決済みの問題でないか確認し、そうでない場合"
+"は新しい問題として提起してください。"
+
+#: lib/admin/support.php:52
+msgid ""
+"Supernova doesn't alter your existing database, so you can always switch "
+"back to your old theme and all your previous settings would be intact."
+msgstr ""
+"Supernovaは、データベースを変更しません。いつでも以前採用していたテーマに戻る"
+"ことが出来ます。以前採用していたテーマのオプション（セッティング）も以前のま"
+"まです。"
+
+#: lib/admin/support.php:54
+msgid "Tip:"
+msgstr "チップス:"
+
+#: lib/admin/support.php:54
+msgid ""
+" You dont have to hit 'save settings' on each page, just edit all the "
+"information and hit 'save settings' only once. You dont even have to hit "
+"'save settings' just hit enter"
+msgstr ""
+"「保存する」ボタンはそれぞれのページで押す必要はありません。全ての情報を編集"
+"した後で、一度だけ「保存する」ボタンを押してください。「保存する」ボタンを押"
+"すかわりに「enter」キーを押してもかまいません。"
+
+#: lib/admin/support.php:55
+msgid "Please support the development of your theme"
+msgstr "テーマの開発にご協力ください。"
+
+#: lib/admin/support.php:58
+msgid "Buy me a cup of coffee"
+msgstr "コーヒーをおごってください！"
+
+#: lib/core/supernova.php:68
+#, php-format
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: lib/core/supernova.php:198
+msgid "Search Results"
+msgstr "検索結果"
+
+#: lib/core/supernova.php:213
+msgid "Theme Support"
+msgstr "テーマサポート"
+
+#: lib/core/supernova.php:218
+msgid ""
+"If you have any question or issues related to the theme, you can always ask "
+"on WordPress"
+msgstr ""
+"提案や質問その他どんな事でもかまいませんので何かありましたら気軽にワードプレ"
+"ス"
+
+#: lib/core/supernova.php:218
+msgid "forum"
+msgstr "フォーラム"
+
+#: lib/core/supernova.php:281 lib/functions/custom-functions.php:143
+msgid "Recommended"
+msgstr "お勧め"
+
+#: lib/core/supernova.php:293
+msgid "Show More"
+msgstr "さらに表示"
+
+#: lib/core/supernova.php:393
+msgid "Header Logo Position"
+msgstr "ヘッダーロゴ位置"
+
+#: lib/core/supernova.php:398
+msgid "Left "
+msgstr "左"
+
+#: lib/core/supernova.php:402
+msgid "Center "
+msgstr "中央"
+
+#: lib/core/supernova.php:406
+msgid "Right "
+msgstr "右"
+
+#: lib/functions/custom-functions.php:71
+msgid ""
+"This theme works best on the latest version of WordPress, some features "
+"might not work properly on this version"
+msgstr ""
+"このテーマはWordPress最新バージョンにあわせていますが、一部の機能が正しく動作"
+"しないことがあります。"
+
+#: lib/functions/custom-functions.php:123
+#: lib/functions/custom-functions.php:136
+msgid "Loading"
+msgstr "Loading"
+
+#: lib/functions/custom-functions.php:123
+#: lib/functions/custom-functions.php:136 lib/functions/supernova-ajax.php:167
+#: lib/functions/supernova-ajax.php:204
+msgid "Sorry no more posts available, please check back later"
+msgstr "これ以上記事はありません。再度確認してください。"
+
+#: lib/functions/custom-functions.php:123
+#: lib/functions/custom-functions.php:136
+msgid "No more posts available"
+msgstr "これ以上記事はありません"
+
+#: lib/functions/supernova-ajax.php:167 lib/functions/supernova-ajax.php:204
+msgid " more"
+msgstr "さらに表示"
+
+#: lib/functions/supernova-hooks.php:76
+msgid "Visit "
+msgstr "Visit "
+
+#: lib/metaboxes/metaboxes.php:5
+msgid "Write CSS for this post"
+msgstr "この投稿記事用のCSS"
+
+#: lib/metaboxes/metaboxes.php:6
+msgid "Write CSS for this page"
+msgstr "このページ用のCSS"
+
+#: lib/metaboxes/metaboxes.php:16
+msgid "Dont forget to wrap in <b>STYLE</b> tag"
+msgstr "<b>STYLE</b>タグで囲むのを忘れないように"
+
+#: lib/metaboxes/metaboxes.php:49
+msgid "List this post under"
+msgstr "お勧めの記事への追加"
+
+#: lib/widgets/recent-posts.php:23
+msgid "This widget will show recent posts with date and featured image"
+msgstr ""
+"このウィジェットは日付とサムネイル画像付きの最近の記事一覧を表示します。"
+
+#: lib/widgets/recent-posts.php:32
+msgid "Recent Posts"
+msgstr "最近の記事"
+
+#: lib/widgets/recent-posts.php:94
+msgid "Title:"
+msgstr "タイトル:"
+
+#: lib/widgets/recent-posts.php:100
+msgid "Number of posts to show:"
+msgstr "投稿記事表示数:"
